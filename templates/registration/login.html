@@ -6,6 +6,7 @@
   {%csrf_token%}
   {{form.as_p}}
   <input type="submit" value="Log In">
+  <a href="{% url 'signup' %}">or Signup here</a>
 </form>
 
 {%endblock content%}
